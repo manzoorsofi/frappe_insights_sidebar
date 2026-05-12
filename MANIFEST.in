@@ -1,0 +1,2 @@
+include MANIFEST.in
+recursive-include insights_sidebar *.json *.js *.css *.html *.md *.txt

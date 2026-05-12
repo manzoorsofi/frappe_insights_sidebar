@@ -1,0 +1,2 @@
+# Add migration patches here in the format:
+# app_name.patches.patch_module.execute
