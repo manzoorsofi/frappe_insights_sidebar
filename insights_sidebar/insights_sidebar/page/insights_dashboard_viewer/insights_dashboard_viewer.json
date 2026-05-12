@@ -1,0 +1,14 @@
+{
+ "creation": "2024-01-01 00:00:00.000000",
+ "doctype": "Page",
+ "modified": "2024-01-01 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Insights Sidebar",
+ "name": "insights-dashboard-viewer",
+ "owner": "Administrator",
+ "page_name": "insights-dashboard-viewer",
+ "restrict_to_domain": "",
+ "roles": [],
+ "standard": "Yes",
+ "title": "Insights Dashboard"
+}
