@@ -4,6 +4,11 @@ A Frappe v15 custom app that dynamically injects **Insights Dashboard** links
 into the Frappe Desk sidebar, filtered by user role, rendered in-place via an
 `<iframe>` — no new tab, no full page reload.
 
+
+## Demo
+
+https://github.com/manzoorsofi/frappe_insights_sidebar/raw/main/insights_sidebar/public/assests/frappe_insights_sidebar.mp4
+
 ---
 
 ## Features
@@ -35,7 +40,7 @@ cd ~/frappe-bench
 # 2. Get the app
 bench get-app /path/to/insights_sidebar
 # OR after pushing to GitHub:
-# bench get-app https://github.com/your-username/insights_sidebar
+# bench get-app https://github.com/manzoorsofi/insights_sidebar
 
 # 3. Install on your site
 bench --site your-site.local install-app insights_sidebar
@@ -134,11 +139,4 @@ insights_sidebar/page/insights_dashboard_viewer/insights_dashboard_viewer.js
 | Sidebar items not showing | Run `bench build --app insights_sidebar` and hard-refresh the browser |
 | Items showing for wrong roles | Clear Redis cache: `bench --site your-site.local clear-cache` |
 | iframe shows 403 | Ensure the Insights Dashboard is shared with (or readable by) the user's role |
-| Dashboard URL 404 | Verify Frappe Insights is installed and the dashboard exists |
 
----
-
-## License
-
-MIT
-#
